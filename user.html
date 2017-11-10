@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Scribook - Perfil Usuario </title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link  href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/user.css">
+  <link rel="stylesheet" type="text/css" href="css/stories.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/user.js"></script>
+
+</head>
+<body>
+
+<!--   NAV BAR   INICIO -->
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" href="#"> <img src="img/sb-logo.png" width=120 height=25"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li class="dropdown">
+	        <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <b>Categorias</b>
+	        <span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Aventura</a></li>
+	          <li><a href="#">Biográfica <kbd> Nuevo reto </kbd></a></li>
+	          <li><a href="#">Ciencia Ficción</a></li>
+	          <li><a href="#">Deportes</a></li>
+	          <li><a href="#">Erótica</a></li>
+	          <li><a href="#">Infantil</a></li>
+	          <li><a href="#">Investigación</a></li>
+	          <li><a href="#">Policial (o Thriller)</a></li>
+	          <li><a href="#">Política</a></li>
+	          <li><a href="#">Romántica</a></li>
+	          <li><a href="#">Sociedad</a></li>
+	          <li><a href="#">Terror</a></li>
+	          <li><a href="#">Viajes</a></li>
+	          <li><a href="#">Vampiros</a></li>
+	          <li><a href="#">Zombies</a></li>
+	        </ul>
+	      </li>
+	      <li class="dropdown">
+	      	<a class="dropdown-toggle" data-toggle="dropdown" href="#">Crear<span class="caret"></span></a>
+	      		<ul class="dropdown-menu">
+	      			<li><a href="#">Retos</a></li>
+	      			<li><a href="#">Historias</a></li>
+	      		</ul>
+	      </li>
+
+			<form class="navbar-form navbar-left">
+			  <div class="input-group">
+			    <input type="text" class="form-control" placeholder="Buscar retos...">
+			    <div class="input-group-btn">
+			      <button class="btn btn-default" type="submit">
+			        <i class="glyphicon glyphicon-search"></i>
+			      </button>
+			    </div>
+			  </div>
+			</form>
+
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrate</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesión</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+<!--   NAV BAR    FIN   -->
+
+
+
+
+<div class="banner">
+	<div class="container">
+		<div class="profile-pic">
+			<img class="img-circle" alt="Cinque Terre" src="img/avatar_default.png" />
+			<button class="button">Info</button>
+		</div>
+		<div class="bio">
+			<h1 class="heading-medium"> <b>Kevin Shakespeare </b></h1>
+			<h3 class="heading-small">Kevin Navarro Alfaro</h3>
+
+			<p class="body-small">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+		</div>
+	</div>
+</div>
+
+<div id="menu">
+	<ul class="nav nav-pills">
+				<li class="active"> <a  href="#historias" data-toggle="tab"><h1>Historias</h1></a> </li>
+				<li><a href="#retos" data-toggle="tab"><h1>Retos</h1> </a> </li> </li>
+	</ul>
+
+<div class="tab-content clearfix">
+			  <div class="tab-pane active" id="historias">
+          
+			  		
+					  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+					    	<h4> <b> Título de relato </b></h4>
+					      <a href="#img_4"><img src="img/stories_default.jpg" class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+					      <figcaption class="figure-caption">
+					        <div class="p-2 text-center">
+					          <a href="#img_4"><button class="btn btn-raised btn-info">Leer</button></a>
+					        </div>
+					      </figcaption>
+					    </figure>
+					  </div>  
+
+					  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+					    <h4> <b> Título de relato </b></h4>
+					      <a href="#img_5"><img src="img/stories_default.jpg" class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+					      <figcaption class="figure-caption">
+					        <div class="p-2 text-center">
+					          <a href="#img_5"><button class="btn btn-raised btn-info">Leer</button></a>
+					        </div>
+					      </figcaption>
+					    </figure>
+					  </div> 
+
+					   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+					   <h4> <b> Título de relato </b></h4>
+					      <a href="#img_6"><img src="img/stories_default.jpg" class="figure-img img-fluid rounded" alt="titulo de la foto"></a>
+					      <figcaption class="figure-caption">
+					        <div class="p-2 text-center">
+					          <a href="#img_6"><button class="btn btn-raised btn-info">Leer</button></a>
+					        </div>
+					      </figcaption>
+					    </figure>
+					  </div>  
+
+					  
+
+				</div>
+
+				<div class="tab-pane" id="retos">
+
+						<div class="row">
+
+							  <div class="col-md-4">
+							    <div class="thumbnail">
+							      <a href="img/stories_default.jpg">
+							        <img src="img/stories_default.jpg" alt="Lights" style="width:100%">
+							        <div class="caption">
+							          <p>Lorem ipsum...</p>
+							        </div>
+							      </a>
+							    </div>
+							  </div>
+
+							  <div class="col-md-4">
+							    <div class="thumbnail">
+							      <a href="img/stories_default.jpg">
+							        <img src="img/stories_default.jpg" alt="Nature" style="width:100%">
+							        <div class="caption">
+							          <p>Lorem ipsum...</p>
+							        </div>
+							      </a>
+							    </div>
+							  </div>
+
+							  <div class="col-md-4">
+							    <div class="thumbnail">
+							      <a href="img/stories_default.jpg">
+							        <img src="img/stories_default.jpg" alt="Fjords" style="width:100%">
+							        <div class="caption">
+							          <p>Lorem ipsum...</p>
+							        </div>
+							      </a>
+							    </div>
+							    
+							  </div>
+							</div>
+
+				</div>
+         
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!--   F O O T E R   INICIO -->
+
+
+<!--   F O O T E R    FIN   -->
+
+
+</body>
+</html>
